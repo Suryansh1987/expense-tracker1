@@ -1,36 +1,25 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+Expense Tracker App
 
-## Getting Started
+This repository contains the code for an Expense Tracker application built with modern web technologies. The app provides a seamless experience for tracking expenses with a clean UI and efficient backend operations.
 
-First, run the development server:
+Tech Stack
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Next.js - React framework for server-side rendering and static site generation.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Drizzle ORM - Lightweight TypeScript ORM for database interactions.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+Neon DB - Serverless Postgres database for scalable and efficient storage.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Tailwind CSS - Utility-first CSS framework for styling.
 
-## Learn More
+shadcn - UI components for building a beautiful and accessible interface.
 
-To learn more about Next.js, take a look at the following resources:
+Features
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+CRUD Operations: Add, edit, delete, and view expenses.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Modern UI: Styled using Tailwind CSS and shadcn components.
 
-## Deploy on Vercel
+Database Integration: Uses Neon DB with Drizzle ORM for efficient data management.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Fast & Scalable: Built on Next.js for optimal performance.
